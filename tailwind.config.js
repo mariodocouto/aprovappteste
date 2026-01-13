@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Roxo Moderno (Foco/Criatividade)
+        // Roxo (Mantido como Primário)
         primary: {
           DEFAULT: '#8b5cf6', // violet-500
           '50': '#f5f3ff',
@@ -22,7 +22,7 @@ export default {
           '900': '#4c1d95',
           '950': '#2e1065',
         },
-        // Azul Tecnológico (Confiança/Inteligência)
+        // Azul (Novo Secundário - Substituindo o Rosa/Fuchsia)
         secondary: {
           DEFAULT: '#3b82f6', // blue-500
           '50': '#eff6ff',
@@ -37,27 +37,7 @@ export default {
           '900': '#1e3a8a',
           '950': '#172554',
         },
-      },
-      animation: {
-        'gradient-x': 'gradient-x 15s ease infinite',
-        'float': 'float 6s ease-in-out infinite',
-      },
-      keyframes: {
-        'gradient-x': {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center',
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center',
-          },
-        },
-        'float': {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        }
-      },
+      }
     },
   },
   plugins: [],
