@@ -1,0 +1,6 @@
+{
+  "name": "AprovApp",
+  "version": "1.1.0",
+  "description": "A complete study management system for competitive exam candidates, featuring syllabus tracking, intelligent revisions, performance analytics, and gamified community features to optimize your preparation.",
+  "requestFramePermissions": []
+}
